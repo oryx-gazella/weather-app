@@ -58,11 +58,7 @@ ul {
 .jumbotron {
   margin: 0 0 36px 0;
 }
-.city {
-  text-align: center;
-  font-stretch: extra-expanded;
-  font-size: 64px;
-}
+
 .badge {
   border: #000000;
   border-style: ridge;
@@ -86,7 +82,6 @@ ul {
   font-size: 12px;
 }
 
-.city,
 .weather-current,
 .weather-today {
   margin: 45px 0 0 0;
@@ -102,4 +97,11 @@ ul {
 }
 #questionAsk {
   padding-top: 120px;
+}
+
+.city-display {
+  font-size: 60px;
+  letter-spacing: 20px;
+  text-shadow: 1px 1px #000000;
+  text-align: center;
 }
